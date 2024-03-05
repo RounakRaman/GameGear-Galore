@@ -22,7 +22,7 @@ const Cart = () => {
   
   
   const stripePromise = loadStripe(
-    'pk_test_51NMDEtSBqs28VJIfIO1acTGiF5lvHbzxvU487VsfVrvaGuoB5zBmyTPgOIjH9YhLeIXHuDVh5Rx4MgIDzwzuGdbd00lAz6cVyi'
+    'pk_test_51Oqy68SA2jdllaKWYFhHcHK8m71wYQPV5D9b4x4vkNgGvRx62L1p5UQLUHmAS0okW3NgCh91l2cnmSboFxSnrmy700Zhx6uu4y'
   );
   
   const handlePayment = async () =>{
