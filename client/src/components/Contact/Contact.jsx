@@ -19,10 +19,10 @@ const Contact = () => {
         </div>
 
         <div className={styles.iconContainer}>                                                  {/*icons*/}
-            <LinkedInIcon className='cursor-pointer'/>
+            <LinkedInIcon to ='https://www.linkedin.com/in/rounak-raman/' className='cursor-pointer'/>
             <TwitterIcon className='cursor-pointer'/>
-            <GitHubIcon className='cursor-pointer'/>
-            <InstagramIcon className='cursor-pointer'/>
+            <GitHubIcon to ='https://github.com/RounakRaman' className='cursor-pointer'/>
+            <InstagramIcon to ='https://www.instagram.com/ramanrounak03/' className='cursor-pointer'/>
             <FacebookIcon className='cursor-pointer'/>
         </div>
 

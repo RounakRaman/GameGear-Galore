@@ -23,8 +23,8 @@ const Card = ({item}) => {
         <Tilt className={styles.mainContainer} onMouseEnter={showSecondImg} onMouseLeave={showFirstImg} >                                                                               {/*Card container*/}
             <div className={styles.imgDiv}  >                                                                    {/*Image thumbnails*/}
               {item?.attributes.isNew && <span className={styles.season}>New Season</span>}
-              {!toggle && <img src={process.env.REACT_APP_UPLOAD_URL + item?.attributes?.img1?.data?.attributes?.url} alt='' className={styles.img} />}
-              {toggle && <img src={process.env.REACT_APP_UPLOAD_URL + item?.attributes?.img2?.data?.attributes?.url} alt='' className={styles.img}  />}
+              {!toggle && <img src={item?.attributes?.img1?.data?.attributes?.url} alt='' className={styles.img} />}
+              {toggle && <img src={item?.attributes?.img2?.data?.attributes?.url} alt='' className={styles.img}  />}
             </div>
 
 

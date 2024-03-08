@@ -7,9 +7,9 @@ const Home = () => {
   return (
     <div className='flex flex-col w-full  '>
       <Imgshifter/>
-      <HomePro type= 'Featured' />
+      <HomePro type= 'featured'/>
       <Categories/>
-      <HomePro type= 'Trending' />
+      <HomePro type= 'trending'/>
     </div>
   )
 }

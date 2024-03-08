@@ -17,10 +17,7 @@ const HomePro = ({type}) => {
         <div className='flex justify-center sm:justify-between items-center mb-[50px]'>                                         
           <h3 className='flex text-[22px] font-bold flex-1 sm:text-[30px] ml-[35px] font-serif '>{type} Products</h3>
           <p className='flex text-gray-500 flex-1 hidden md:block'>
-            sfda dsflkjj dfskjld dslkjds dsfkjl jlkds dksjlf jkdfsa kjldfsa
-            fdslkj ddkslfj dfsjlk fdsakjds dkjd dklas dfs jk lkdjfs ;lkj'll
-            lkkljjlk; dfskjl; jlk s;ajldk kld; dskjl ds;fjlk ;jlkdsf ;lkdjfsd
-            lk;jfds fdskjl;dsjk dslkj;
+            {type==='featured' ? 'Featured products are handpicked by our team' : 'Trending products are the most popular products right now'}
           </p>
         </div>
           
