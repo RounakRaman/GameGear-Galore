@@ -50,7 +50,7 @@ const Cart = () => {
       {products.length===0 ? <h1 className='relative top-[30px]'>Your cart is empty. Add products to cart first.</h1>
       : products?.map((item)=> (
         <div className='flex  items-center gap-[20px] mb-[30px]  ' key={item.id}>
-            <img src= {process.env.REACT_APP_UPLOAD_URL + item.img} className={styles.itemImg} alt=''/>
+            <img src= {item.img} className={styles.itemImg} alt=''/>
             <div className=''>
                 <h1 className={styles.itemTitle}>{item.title}</h1>
                 <p className={styles.itemDesc}>{item.desc?.substring(0,100)}</p>

@@ -46,8 +46,8 @@ const Footer = () => {
 
         <div className="flex items-center  ">                                                     {/*left*/}
           <div className='flex flex-col items-center -mt-5 sm:mt-0'>
-            <span className={styles.banner}>GADGOZONE</span>
-            <span className='foot-contactdet'>xyz@gmail.com</span>
+            <span className={styles.banner}>GameGearGalore</span>
+            <span className='foot-contactdet'>raman.rounak@gmail.com</span>
             <span className='foot-contactdet'>9799XXXXXX</span>
           
           </div>

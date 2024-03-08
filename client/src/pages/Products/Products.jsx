@@ -77,7 +77,7 @@ const Products = () => {
 
 
       <div className={styles.subContainerRight}>    {/*right*/}
-        <img src = {process.env.REACT_APP_UPLOAD_URL + dataCat?.attributes?.img?.data?.attributes?.url} alt='' className={styles.imgRight}/>
+        <img src = {dataCat?.attributes?.img?.data?.attributes?.url} alt='' className={styles.imgRight}/>
         <List catId={catId} sort={sort} upperPriceLimit={upperPriceLimit} subCatVizSelected={subCatVizSelected} />
       </div>   
     </div>

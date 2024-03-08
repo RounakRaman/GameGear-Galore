@@ -33,16 +33,16 @@ const Product = () => {
       <div className='flex flex-1 justify-between'>              {/*left*/}
       
           <div className='flex flex-col flex-1 w-full h-full '>          {/*side img container*/}
-            <img src={process.env.REACT_APP_UPLOAD_URL + data?.attributes?.img3?.data?.attributes?.url} alt='' className={styles.sideImg} onClick={()=>{setImg('img3')}}/>
-            <img src={process.env.REACT_APP_UPLOAD_URL + data?.attributes?.img1?.data?.attributes?.url} alt='' className={styles.sideImg} onClick={()=>{setImg('img1')}}/>
-            <img src={process.env.REACT_APP_UPLOAD_URL + data?.attributes?.img2?.data?.attributes?.url} alt='' className={styles.sideImg} onClick={()=>{setImg('img2')}}/>
-            <img src={process.env.REACT_APP_UPLOAD_URL + data?.attributes?.img4?.data?.attributes?.url} alt='' className={styles.sideImg} onClick={()=>{setImg('img4')}}/>
-            <img src={process.env.REACT_APP_UPLOAD_URL + data?.attributes?.img5?.data?.attributes?.url} alt='' className={styles.sideImg} onClick={()=>{setImg('img5')}}/>
-            <img src={process.env.REACT_APP_UPLOAD_URL + data?.attributes?.img6?.data?.attributes?.url} alt='' className={styles.sideImg} onClick={()=>{setImg('img6')}}/>
+            <img src={data?.attributes?.img3?.data?.attributes?.url} alt='' className={styles.sideImg} onClick={()=>{setImg('img3')}}/>
+            <img src={data?.attributes?.img1?.data?.attributes?.url} alt='' className={styles.sideImg} onClick={()=>{setImg('img1')}}/>
+            <img src={data?.attributes?.img2?.Sdata?.attributes?.url} alt='' className={styles.sideImg} onClick={()=>{setImg('img2')}}/>
+            <img src={data?.attributes?.img4?.data?.attributes?.url} alt='' className={styles.sideImg} onClick={()=>{setImg('img4')}}/>
+            <img src={data?.attributes?.img5?.data?.attributes?.url} alt='' className={styles.sideImg} onClick={()=>{setImg('img5')}}/>
+            <img src={data?.attribuStes?.img6?.data?.attributes?.url} alt='' className={styles.sideImg} onClick={()=>{setImg('img6')}}/>
           </div>
           
           <div className='main-image ml-[20px] my-auto '>
-            <img src={process.env.REACT_APP_UPLOAD_URL + data?.attributes?.[img]?.data?.attributes?.url} alt='' className='product-mainimg'></img>
+            <img src={data?.attributes?.[img]?.data?.attributes?.url} alt='' className='product-mainimg'></img>
           </div>
           
       </div>
